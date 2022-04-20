@@ -11,12 +11,84 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+footer {
+    padding: 50px 0px;
 }
 
 .ib {
+    /* TEMPORANEO */
     border: 1px dashed red;
 }
 
 .header-box {
     padding: 10px 0px;
+    width: 20%;
+}
+
+.container-big {
+    max-width: 1100px;
+    width: 100%;
+    min-width: 300px;
+    min-height: 180px;
+    padding: 0px 0px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    min-width: 300px;
+    min-height: 180px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    min-height: 120px;
+}
+
+.box2 {
+    min-height: 600px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    min-height: 180px;
+}
+
+.card {
+    width: calc(100% / 3);
+    height: 300px
+}
+
+.square {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.bg-color-lightblue {
+    background-color: #b4d0e7;
+}
+
+.bg-color-black {
+    background-color: #000000;
 }
