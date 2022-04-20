@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+.ib {
+    border: 1px dashed red;
+}
+
+.header-box {
+    padding: 10px 0px;
+}
