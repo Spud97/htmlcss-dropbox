@@ -31,10 +31,6 @@ h1 {
   word-spacing: 0.4rem;
 }
 
-h2 {
-  font-size: 3.8rem;
-}
-
 h3 {
   font-size: 2rem;
   padding-bottom: 40px;
@@ -80,6 +76,10 @@ span {
   max-height: 370px;
 }
 
+#partner-img {
+  max-height: 400px;
+}
+
 #jumbo-container {
   position: relative;
   top: 94px;
@@ -99,6 +99,10 @@ span {
 
 #business-plan {
   padding-top: 60px;
+}
+
+#text-partner {
+  padding: 50px 0px 0px 42px;
 }
 
 .ib {
@@ -261,6 +265,10 @@ span {
   width: 66%;
 }
 
+.testo-xl {
+  width: 108%;
+}
+
 .mid-icon {
   font-size: 2.7rem;
 }
@@ -321,3 +329,8 @@ span {
 .rate {
   padding-bottom: 40px;
 }
+
+.border-black {
+  border: 1px solid black;
+}
+
