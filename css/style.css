@@ -14,14 +14,11 @@ header {
   padding: 14px 0px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 section {
   padding: 60px 0px;
-}
-
-main section:first-child {
-  padding-top: 77px;
 }
 
 footer {
@@ -30,13 +27,19 @@ footer {
 
 h1 {
   font-size: 4rem;
-  font-family: 'Lato';
+  font-family: "Lato";
+  word-spacing: 0.4rem;
 }
 
 h2 {
 }
 
 h3 {
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+
+h4 {
 }
 
 p {
@@ -51,6 +54,23 @@ p {
 
 #main-title {
   padding-bottom: 45px;
+}
+
+#advice {
+  padding-bottom: 50px;
+}
+
+#jumbo-img {
+  max-height: 370px;
+}
+
+#jumbo-container {
+  position: relative;
+  top: 94px;
+}
+
+#jumbotron {
+  padding: 32px 0px;
 }
 
 .ib {
@@ -78,7 +98,6 @@ p {
   width: 100%;
   min-width: 300px;
   min-height: 180px;
-  padding: 0px 10px;
   margin: 0 auto;
 }
 
@@ -122,7 +141,7 @@ p {
 }
 
 .box1 {
-  min-height: 120px;
+  min-height: 130px;
 }
 
 .box2 {
@@ -173,6 +192,10 @@ p {
   color: #640d2b;
 }
 
+.small-text {
+  font-size: 0.7rem;
+}
+
 .link {
   text-decoration: none;
   padding: 10px 10px;
@@ -197,4 +220,30 @@ p {
 
 .mid-icon {
   font-size: 2.7rem;
+}
+
+.col {
+  flex-grow: 1;
+}
+
+.col-title {
+  border: 1px solid grey;
+  padding: 5px 0px;
+}
+
+.col-body {
+  border: 1px solid #d0d0d3;
+  padding: 15px 0px;
+}
+
+.gap1 {
+  gap: 1rem;
+}
+
+.gap2 {
+  gap: 2rem;
+}
+
+.gap3 {
+  gap: 3rem;
 }
