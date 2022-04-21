@@ -195,7 +195,9 @@ span {
 
 .card {
   width: calc(100% / 3);
-  height: 300px;
+  height: 400px;
+  padding-right: 33px;
+  gap: 6px;
 }
 
 .square {
