@@ -68,6 +68,10 @@ span {
   padding-bottom: 45px;
 }
 
+#business-title {
+  padding-bottom: 50px;
+}
+
 #advice {
   padding-bottom: 50px;
 }
@@ -107,7 +111,7 @@ span {
 
 #card-table {
   position: relative;
-  bottom: 50px;
+  bottom: 60px;
 }
 
 .ib {
@@ -201,7 +205,8 @@ span {
 .card {
   width: calc(100% / 3);
   height: 400px;
-  padding-right: 33px;
+  margin-top: 10px;
+  padding-right: 40px;
   gap: 6px;
 }
 
@@ -339,5 +344,9 @@ span {
 
 .border-black {
   border: 1px solid black;
+}
+
+.short-section {
+  padding: 10px 0px;
 }
 
