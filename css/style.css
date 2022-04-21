@@ -105,6 +105,11 @@ span {
   padding: 50px 0px 0px 42px;
 }
 
+#card-table {
+  position: relative;
+  bottom: 50px;
+}
+
 .ib {
   /* TEMPORANEO */
   border: 1px dashed red;
