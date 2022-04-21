@@ -40,6 +40,7 @@ h3 {
 }
 
 h4 {
+  font-size: 1.2rem;
 }
 
 p {
@@ -188,6 +189,10 @@ p {
   color: white;
 }
 
+.text-grey {
+  color: #d0d0d3;
+}
+
 .text-wine {
   color: #640d2b;
 }
@@ -227,13 +232,18 @@ p {
 }
 
 .col-title {
-  border: 1px solid grey;
+  border: 1px solid #d0d0d3;
   padding: 5px 0px;
+  text-align: center;
 }
 
 .col-body {
   border: 1px solid #d0d0d3;
-  padding: 15px 0px;
+  padding: 22px 20px;
+}
+
+.gap0 {
+  gap: 2px;
 }
 
 .gap1 {
@@ -245,5 +255,5 @@ p {
 }
 
 .gap3 {
-  gap: 3rem;
+  gap: 2.5rem;
 }
