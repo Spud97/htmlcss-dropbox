@@ -32,6 +32,7 @@ h1 {
 }
 
 h2 {
+  font-size: 3.8rem;
 }
 
 h3 {
@@ -41,11 +42,25 @@ h3 {
 
 h4 {
   font-size: 1.2rem;
+  padding-bottom: 16px;
 }
 
 p {
   line-height: 18px;
   padding-bottom: 22px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+li {
+  margin: 20px 0px;
+}
+
+span {
+  display: inline-block;
 }
 
 #logo {
@@ -72,6 +87,18 @@ p {
 
 #jumbotron {
   padding: 32px 0px;
+}
+
+#info-team {
+  padding-bottom: 40px;
+}
+
+#team-plan {
+  margin-top: 20px;
+}
+
+#business-plan {
+  padding-top: 60px;
 }
 
 .ib {
@@ -129,16 +156,16 @@ p {
   align-self: flex-end;
 }
 
-.justify-left {
-  justify-self: flex-start;
+.stretch {
+  align-self: stretch;
 }
 
-.justify-center {
-  justify-self: center;
+.space-between {
+  justify-content: space-between;
 }
 
-.justify-right {
-  justify-self: flex-end;
+.inblock {
+  display: inline-block;
 }
 
 .box1 {
@@ -148,11 +175,18 @@ p {
 .box2 {
   min-height: 600px;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .box3 {
   min-height: 180px;
+}
+
+.shortened-box {
+  padding-right: 10px;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .card {
@@ -198,7 +232,7 @@ p {
 }
 
 .small-text {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
 }
 
 .link {
@@ -223,23 +257,30 @@ p {
   width: 32%;
 }
 
+.testo-large {
+  width: 66%;
+}
+
 .mid-icon {
   font-size: 2.7rem;
 }
 
 .col {
   flex-grow: 1;
+  width: calc((100% - 5rem) / 3);
 }
 
 .col-title {
   border: 1px solid #d0d0d3;
-  padding: 5px 0px;
+  padding: 8px 0px;
   text-align: center;
 }
 
 .col-body {
   border: 1px solid #d0d0d3;
-  padding: 22px 20px;
+  padding: 22px 23px;
+  height: calc(100% - 50px);
+  width: 100%;
 }
 
 .gap0 {
@@ -256,4 +297,27 @@ p {
 
 .gap3 {
   gap: 2.5rem;
+}
+
+.gap-list {
+  gap: 4px;
+}
+
+.hr-space {
+  color: #d0d0d3;
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.check {
+  color: #0061ff;
+}
+
+.price {
+  padding-bottom: 10px;
+}
+
+.rate {
+  padding-bottom: 40px;
 }
