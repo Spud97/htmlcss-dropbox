@@ -414,10 +414,18 @@ span {
   padding: 10px 0px;
 }
 
+.mid-section {
+  padding: 50px 0px;
+}
+
 .square-logo {
   width: 50%;
 }
 
 .negative {
   filter: invert(1);
+}
+
+.no-padding {
+  padding: 0px;
 }
