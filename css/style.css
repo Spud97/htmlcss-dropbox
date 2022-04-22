@@ -114,6 +114,52 @@ span {
   bottom: 60px;
 }
 
+#subsquare1 {
+  background-color: #d1e9cd;
+}
+
+#subsquare2 {
+  background-color: #61082b;
+}
+
+#subsquare3 {
+  background-color: #0093ce;
+  padding: 115px 0px;
+}
+
+#subsquare4 {
+  background-color: #ff1c1c;
+}
+
+#subsquare5 {
+  background-color: #d5001f;
+}
+
+#subsquare6 {
+  background-color: #b4d0e7;
+}
+
+#subsquare7 {
+  background-color: #0d2481;
+}
+
+#subsquare8 {
+  background-color: #ffd830;
+}
+
+#in-square {
+  background-color: #a2d39b;
+}
+
+#central-square {
+  background-color: #f5f5f5;
+  padding: 40px 40px;
+}
+
+#morten {
+  padding-top: 20px;
+}
+
 .ib {
   /* TEMPORANEO */
   border: 1px dashed red;
@@ -169,6 +215,10 @@ span {
   align-self: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .stretch {
   align-self: stretch;
 }
@@ -213,6 +263,16 @@ span {
 .square {
   width: calc(100vw / 3);
   height: calc(100vw / 3);
+}
+
+.subsquare {
+  width: 50%;
+  height: 50%;
+}
+
+.internal-square {
+  width: calc(100% - 26px);
+  height: calc(100% - 26px);
 }
 
 .bg-color-white {
@@ -296,6 +356,10 @@ span {
   text-align: center;
 }
 
+.col-subtitle {
+  padding-top: 10px;
+}
+
 .col-body {
   border: 1px solid #d0d0d3;
   padding: 22px 23px;
@@ -327,7 +391,7 @@ span {
   color: #d0d0d3;
   width: 20%;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .check {
@@ -350,3 +414,10 @@ span {
   padding: 10px 0px;
 }
 
+.square-logo {
+  width: 50%;
+}
+
+.negative {
+  filter: invert(1);
+}
