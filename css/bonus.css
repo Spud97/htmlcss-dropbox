@@ -1,0 +1,11 @@
+header a:hover {
+    text-decoration: underline;
+}
+
+.blue-button:hover {
+    background-color: #5493f9;
+}
+
+.white-button:hover {
+    background-color: #edebeb;
+}
